@@ -1,0 +1,1075 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CFFFFB;
+    transition: 2s;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    display: inline-block;
+    background: linear-gradient(to top, #214F4C 50%, #EFF9F8 50%);
+    background-size: 100% 200%;
+    background-position: right top;
+    transition: .5s ease-out;
+    width: 6em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 100;
+    margin: 1em;
+    -webkit-box-shadow: 0px 0px 37px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 37px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 37px -6px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-position: left bottom;
+    color: #EFF9F8;
+}
+
+body.schildpad {
+    background-color: #649995;
+}
+
+body.vis {
+    background-color: #284946;
+}
+
+body.pinguin #dier {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0%;
+    height: 500px;
+    width: 500px;
+}
+
+div div {
+    transition: 1.5s;
+    position: absolute
+}
+
+
+.pinguin .een {
+    left: 213.0526px;
+    top: 32.0073px;
+    height: 38.244px;
+    width: 50.266px;
+    background: #CACDCC;
+    -webkit-clip-path: polygon(100% 0, 0 57%, 7.5% 100%);
+    clip-path: polygon(100% 0, 0 57%, 8% 100%);
+}
+
+.pinguin .twee {
+    left: 206.3px;
+    top: 53.65px;
+    width: 22.8998px;
+    height: 78.4113px;
+    background: #A6A5A0;
+    -webkit-clip-path: polygon(30% 0, 3% 91%, 100% 88%);
+    clip-path: polygon(30% 0, 3% 91%, 100% 88%);
+}
+
+
+.pinguin .drie {
+    left: 217px;
+    top: 48.2px;
+    width: 22.5339px;
+    height: 74.5546px;
+    background: #1D2025;
+    -webkit-clip-path: polygon(100% 4.5%, 0 29.45%, 54% 100%);
+    clip-path: polygon(100% 4.5%, 0 29.45%, 54% 100%);
+}
+
+.pinguin .vier {
+    left: 229px;
+    top: 47.7126px;
+    width: 76.962px;
+    height: 80.666px;
+    background: #32323C;
+    -webkit-clip-path: polygon(100% 46%, 13.5% 5%, 0 93%);
+    clip-path: polygon(100% 46%, 13.5% 5%, 0 93%);
+}
+
+.pinguin .vijf {
+    left: 239.5px;
+    top: 43.5px;
+    width: 57.5068px;
+    height: 28.1156px;
+    background: #AB83A4;
+    -webkit-clip-path: polygon(69.5% 100%, 98% 0, 0 29.5%);
+    clip-path: polygon(69.5% 100%, 98% 0, 0 29.5%);
+}
+
+.pinguin .zes {
+    left: 239.3px;
+    top: 31.9px;
+    width: 56.6367px;
+    height: 19.9943px;
+    background: #F0F1F1;
+    -webkit-clip-path: polygon(100% 59%, 42% 0, 0 100%);
+    clip-path: polygon(100% 59%, 42% 0, 0 100%);
+}
+
+.pinguin .zeven {
+    left: 279.4px;
+    top: 43.4px;
+    width: 68.8884px;
+    height: 28.3px;
+    background: #37383A;
+    -webkit-clip-path: polygon(100% 84%, 23% 0, 0 100%);
+    clip-path: polygon(100% 84%, 23% 0, 0 100%);
+}
+
+.pinguin .acht {
+    left: 279.5px;
+    top: 66px;
+    width: 68.78px;
+    height: 18.93px;
+    background: #010101;
+    -webkit-clip-path: polygon(100% 6%, 0 30%, 38% 100%);
+    clip-path: polygon(100% 6%, 0 30%, 38% 100%);
+}
+
+.pinguin .negen {
+    left: 229.5px;
+    top: 84.7px;
+    width: 80.6071px;
+    height: 43.337px;
+    background: #151515;
+    -webkit-clip-path: polygon(95% 0, 0 87%, 100% 59%);
+    clip-path: polygon(95% 0, 0 87%, 100% 59%);
+}
+
+.pinguin .tien {
+    left: 205.93px;
+    top: 110.2px;
+    width: 104.2093px;
+    height: 92.1737px;
+    background: #D7D7DD;
+    -webkit-clip-path: polygon(100% 0, 1% 16%, 40% 100%);
+    clip-path: polygon(100% 0, 1% 16%, 40% 100%);
+    z-index: 4;
+}
+
+.pinguin .elf {
+    left: 247.4px;
+    top: 110.4px;
+    width: 78px;
+    height: 92.1544px;
+    background: #F0F1F1;
+    -webkit-clip-path: polygon(100% 70%, 80% 0, 0 100%);
+    clip-path: polygon(100% 70%, 80% 0, 0 100%);
+    z-index: 4;
+}
+
+.pinguin .twaalf {
+    left: 152.5px;
+    top: 125px;
+    width: 107.1835px;
+    height: 119px;
+    background: #46454A;
+    -webkit-clip-path: polygon(89.5% 64.8%, 51% 0, 0 88%);
+    clip-path: polygon(89.5% 64.8%, 51% 0, 0 88%);
+    z-index: 4;
+}
+
+.pinguin .dertien {
+    left: 185.5px;
+    top: 202px;
+    width: 62.7193px;
+    height: 69.0215px;
+    background: #2D2C31;
+    -webkit-clip-path: polygon(78% 100%, 100% 0, 0 26.5%);
+    clip-path: polygon(78% 100%, 100% 0, 0 26.2%);
+    z-index: 4;
+}
+
+.pinguin .veertien {
+    left: 237px;
+    top: 164px;
+    width: 89px;
+    height: 94.3261px;
+    background: #151515;
+    -webkit-clip-path: polygon(12% 40%, 0 100%, 100% 11%);
+    clip-path: polygon(12% 40%, 0 100%, 100% 11%);
+    z-index: 4;
+}
+
+.pinguin .vijftien {
+    left: 260.5px;
+    top: 175px;
+    width: 64.9464px;
+    height: 68.1388px;
+    background: #37383A;
+    -webkit-clip-path: polygon(100% 38%, 0 89.5%, 100% 0);
+    clip-path: polygon(100% 38%, 0 89.5%, 99.5% 0);
+    z-index: 4;
+}
+
+.pinguin .zestien {
+    left: 260px;
+    top: 200.5px;
+    width: 65.5622px;
+    height: 78.7231px;
+    background: #CACDCC;
+    -webkit-clip-path: polygon(96% 100%, 0 50%, 100% 0);
+    clip-path: polygon(96% 100%, 0 45.5%, 100% 0);
+    z-index: 4;
+}
+
+.pinguin .zeventien {
+    left: 260px;
+    top: 236.0341px;
+    width: 63.7926px;
+    height: 163.7781px;
+    background: #BFC1C0;
+    -webkit-clip-path: polygon(24% 100%, 0 0, 98.8% 26.4%);
+    clip-path: polygon(24% 100%, 0 0, 98.8% 26.4%);
+    z-index: 4;
+}
+
+.pinguin .achttien {
+    left: 200px;
+    top: 205px;
+    width: 76px;
+    height: 194.73px;
+    background: #A6A5A0;
+    -webkit-clip-path: polygon(0 87%, 76% 0, 100% 100%);
+    clip-path: polygon(0 87%, 76% 0, 100% 100%);
+    z-index: 3;
+}
+
+.pinguin .negentien {
+    left: 234.3px;
+    top: 240px;
+    width: 10px;
+    height: 50px;
+    background: #151515;
+    -webkit-clip-path: polygon(0 78%, 0 0, 100% 9%);
+    clip-path: polygon(0 78%, 0 0, 100% 9%);
+    z-index: 2;
+}
+
+.pinguin .twintig {
+    left: 125px;
+    top: 201px;
+    width: 123px;
+    height: 113px;
+    background: #37383A;
+    -webkit-clip-path: polygon(0 100%, 45% 0, 100% 56%);
+    clip-path: polygon(0 100%, 45% 0, 100% 56%);
+    z-index: 1;
+}
+
+.pinguin .eenentwintig {
+    left: 86px;
+    top: 269.5px;
+    width: 148.1803px;
+    height: 187.3148px;
+    background: #2D2C31;
+    -webkit-clip-path: polygon(0 100%, 32% 21.8%, 100% 0);
+    clip-path: polygon(0 100%, 32% 21.8%, 100% 0);
+    z-index: 4;
+}
+
+.pinguin .tweeentwintig {
+    left: 166.6px;
+    top: 266.5px;
+    width: 73.3751px;
+    height: 108px;
+    background: #151515;
+    -webkit-clip-path: polygon(2% 80%, 95.4% 0, 46% 100%);
+    clip-path: polygon(2% 80%, 95.4% 0, 46% 100%);
+    z-index: 4;
+}
+
+.pinguin .drieentwintig {
+    left: 132px;
+    top: 343px;
+    width: 72px;
+    height: 110px;
+    background: #010101;
+    -webkit-clip-path: polygon(22% 100%, 21% 0, 99.5% 24%);
+    clip-path: polygon(22% 100%, 21% 0, 99.5% 24%);
+    z-index: 2;
+}
+
+.pinguin .vierentwintig {
+    left: 147.8px;
+    top: 369.5px;
+    width: 126.9867px;
+    height: 82.79px;
+    background: #837F7C;
+    -webkit-clip-path: polygon(38% 0, 0% 100%, 100% 36%);
+    clip-path: polygon(38% 0, 0% 100%, 100% 36%);
+    z-index: 1;
+}
+
+.pinguin .vijfentwintig {
+    left: 156.5px;
+    top: 399.3px;
+    width: 118.3884px;
+    height: 54.6965px;
+    background: #726E64;
+    -webkit-clip-path: polygon(100% 0, 0 90%, 78% 71%);
+    clip-path: polygon(100% 0, 0 90%, 78% 65%);
+    z-index: 1;
+}
+
+.pinguin .zesentwintig {
+    left: 147px;
+    top: 452.7433px;
+    width: 88.7946px;
+    height: 28.9559px;
+    background: #1D2025;
+    -webkit-clip-path: polygon(100% 4%, 0 0, 66% 100%);
+    clip-path: polygon(100% 4%, 0 0, 66% 100%);
+    z-index: 4;
+
+
+}
+
+.pinguin .zevenentwintig {
+    left: 220px;
+    top: 432px;
+    width: 88.7946px;
+    height: 28.9559px;
+    background: #1D2025;
+    -webkit-clip-path: polygon(100% 4%, 0 0, 66% 100%);
+    clip-path: polygon(100% 4%, 0 0, 66% 100%);
+    z-index: 0;
+
+}
+
+.pinguin .achtentwintig {
+    left: 291px;
+    top: 295px;
+    width: 45.7625px;
+    height: 110.1644px;
+    background: #010101;
+    -webkit-clip-path: polygon(54% 0, 0 58%, 100% 100%);
+    clip-path: polygon(54% 0, 0 58%, 100% 100%);
+    z-index: 0;
+
+}
+
+.pinguin .negenentwintig {
+    left: 290px;
+    top: 257.45px;
+    width: 10.6725px;
+    height: 10.088px;
+    background: #2D2C31;
+    -webkit-clip-path: polygon(100% 65%, 11% 0, 28% 100%);
+    clip-path: polygon(100% 65%, 11% 0, 28% 100%);
+    z-index: 4;
+}
+
+.pinguin .dertig {
+    left: 310px;
+    top: 59.5px;
+    width: 10.6725px;
+    height: 10.088px;
+    background: #595959;
+    -webkit-clip-path: polygon(100% 94%, 65% 0, 0 100%);
+    clip-path: polygon(100% 94%, 65% 0, 0 100%);
+    z-index: 4;
+}
+
+/*Hier begint dier 2 (de schildpad)*/
+body.schildpad #dier {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 500px;
+
+}
+
+.schildpad .een {
+    left: 439.8881px;
+    top: 228.3159px;
+    width: 44.5941px;
+    height: 28.5848px;
+    background: #8CA29E;
+    -webkit-clip-path: polygon(100% 100%, 0 0, 0 49%);
+    clip-path: polygon(100% 100%, 0 0, 0 49%);
+    z-index: 0;
+}
+
+.schildpad .twee {
+    left: 437.6922px;
+    top: 240.1779px;
+    width: 46.8424px;
+    height: 34.9665px;
+    background: #535B5B;
+    -webkit-clip-path: polygon(100% 48%, 5% 0, 5% 100%);
+    clip-path: polygon(100% 48%, 5% 0, 5% 100%);
+    z-index: 0;
+}
+
+.schildpad .drie {
+    left: 439.5454px;
+    top: 257px;
+    width: 45.822px;
+    height: 20.3552px;
+    background: #5E6768;
+    -webkit-clip-path: polygon(71% 100%, 98% 0, 0 87.5%);
+    clip-path: polygon(73% 97%, 98% 0, 2% 88%);
+}
+
+.schildpad .vier {
+    left: 472.8px;
+    top: 256.9px;
+    width: 11.5686px;
+    height: 27.0888px;
+    background: #70787A;
+    -webkit-clip-path: polygon(57% 100%, 100% 0, 0 72%);
+    clip-path: polygon(57% 100%, 100% 0, 0 72%);
+}
+
+.schildpad .vijf {
+    left: 457.6475px;
+    top: 246.9px;
+    width: 8.3525px;
+    height: 14.5825px;
+    background: #273539;
+    -webkit-clip-path: polygon(100% 100%, 100% 21%, 1% 0);
+    clip-path: polygon(100% 100%, 100% 21%, 1% 0);
+}
+
+.schildpad .zes {
+    left: 365.3px;
+    top: 228.3165px;
+    width: 74.8346px;
+    height: 12.7268px;
+    background: #68919A;
+    -webkit-clip-path: polygon(100% 100%, 100% 0, 0 48%);
+    clip-path: polygon(100% 100%, 100% 0, 0 48%);
+}
+
+.schildpad .zeven {
+    left: 365.45px;
+    top: 232.45px;
+    width: 74.5px;
+    height: 26.7736px;
+    background: #557A7E;
+    -webkit-clip-path: polygon(16% 100%, 100% 31%, 0 7%);
+    clip-path: polygon(16% 100%, 100% 31%, 0 7%);
+}
+
+.schildpad .acht {
+    left: 377.3px;
+    top: 240.3px;
+    width: 63.0036px;
+    height: 34.9px;
+    background: #37474A;
+    -webkit-clip-path: polygon(0 54%, 100% 100%, 100% 0);
+    clip-path: polygon(0 54%, 100% 100%, 100% 0);
+}
+
+.schildpad .negen {
+    left: 376.7439px;
+    top: 258.712px;
+    width: 91.9037px;
+    height: 24.5433px;
+    background: #CCC9BA;
+    -webkit-clip-path: polygon(0 0, 8% 100%, 100% 94%);
+    clip-path: polygon(0 0, 8% 100%, 100% 94%);
+    z-index: 1;
+}
+
+.schildpad .tien {
+    left: 299.5px;
+    top: 214.3px;
+    width: 77.9316px;
+    height: 44.6996px;
+    background: #4B656D;
+    -webkit-clip-path: polygon(75% 0, 0 69%, 100% 100%);
+    clip-path: polygon(75% 0, 2.5% 67%, 100% 100%);
+    z-index: 1;
+}
+
+.schildpad .elf {
+    left: 310.6059px;
+    top: 245.8555px;
+    width: 65.9796px;
+    height: 46.7744px;
+    background: #BDBDAD;
+    -webkit-clip-path: polygon(100% 27%, 0 0, 10% 100%);
+    clip-path: polygon(100% 27.5%, 0 0, 24% 95%);
+    z-index: 1;
+}
+
+.schildpad .twaalf {
+    left: 326.5px;
+    top: 258px;
+    width: 58.6973px;
+    height: 35.4336px;
+    background: #A3AA9F;
+    -webkit-clip-path: polygon(100% 72%, 87% 0, 0 91%);
+    clip-path: polygon(99.5% 70.5%, 85.5% 1.5%, 0 91%);
+    z-index: 1;
+}
+
+.schildpad .dertien {
+    left: 303.7319px;
+    top: 218.0411px;
+    width: 76.9886px;
+    height: 45.5743px;
+    background: #C8D4D7;
+    -webkit-clip-path: polygon(100% 0, 25% 0, 0 100%);
+    clip-path: polygon(100% 0, 25% 0, 0 100%);
+    z-index: 2;
+}
+
+.schildpad .veertien {
+    left: 322.8px;
+    top: 125.6px;
+    width: 58px;
+    height: 92.6498px;
+    background: #B4C1BA;
+    -webkit-clip-path: polygon(100% 100%, 78% 0, 0 100%);
+    clip-path: polygon(100% 100%, 78% 0, 0 100%);
+    z-index: 2;
+}
+
+.schildpad .vijftien {
+    left: 319.991px;
+    top: 117.2029px;
+    width: 50.0187px;
+    height: 101.2162px;
+    background: #61797B;
+    -webkit-clip-path: polygon(96.5% 8%, 30% 0, 6% 100%);
+    clip-path: polygon(96.5% 8%, 30% 0, 6% 100%);
+    z-index: 2;
+}
+
+.schildpad .zestien {
+    left: 330.9024px;
+    top: 73px;
+    width: 40.2849px;
+    height: 52.6136px;
+    background: #1F2E2F;
+    -webkit-clip-path: polygon(100% 100%, 0 0, 11% 83.5%);
+    clip-path: polygon(93% 100%, 0 0, 10.5% 84%);
+    z-index: 2;
+}
+
+.schildpad .zeventien {
+    left: 250.6905px;
+    top: 195.1024px;
+    width: 120.7518px;
+    height: 89.0092px;
+    background: #6C888E;
+    -webkit-clip-path: polygon(100% 14%, 6% 0, 0 86%);
+    clip-path: polygon(100% 14%, 6% 0, 0 86%);
+    z-index: 1;
+}
+
+.schildpad .achttien {
+    left: 231px;
+    top: 238.1473px;
+    width: 96px;
+    height: 51.8527px;
+    background: #A3AA9F;
+    -webkit-clip-path: polygon(81% 0, 0 71%, 100% 100%);
+    clip-path: polygon(81% 0, 20% 65%, 100% 100%);
+    z-index: 0;
+}
+
+.schildpad .negentien {
+    left: 211.5px;
+    top: 272px;
+    width: 116px;
+    height: 30px;
+    background: #BDBDAD;
+    -webkit-clip-path: polygon(34% 0, 13% 100%, 100% 60%);
+    clip-path: polygon(34% 0, 13% 100%, 100% 60%);
+}
+
+.schildpad .twintig {
+    left: 168.1px;
+    top: 260.9801px;
+    width: 83.6071px;
+    height: 41.0199px;
+    background: #A3AA9F;
+    -webkit-clip-path: polygon(1% 0, 70% 100%, 100% 26%);
+    clip-path: polygon(1% 0, 70% 100%, 100% 26%);
+}
+
+.schildpad .eenentwintig {
+    left: 169.5px;
+    top: 195.2998px;
+    width: 88.8078px;
+    height: 86.7231px;
+    background: #546F75;
+    -webkit-clip-path: polygon(0 76%, 92% 88%, 100% 0);
+    clip-path: polygon(0 76%, 92% 88%, 100% 0);
+}
+
+.schildpad .tweeentwintig {
+    left: 120px;
+    top: 194.9px;
+    width: 138.9178px;
+    height: 75.7371px;
+    background: #627C83;
+    -webkit-clip-path: polygon(0 49%, 36% 88%, 100% 0);
+    clip-path: polygon(0 49%, 36% 88%, 100% 0);
+}
+
+.schildpad .drieentwintig {
+    left: 87.3px;
+    top: 230.1885px;
+    width: 83.1483px;
+    height: 31.5861px;
+    background: #597176;
+    -webkit-clip-path: polygon(40% 5%, 0 66%, 100% 100%);
+    clip-path: polygon(40% 5%, 0 66%, 100% 100%);
+}
+
+.schildpad .vierentwintig {
+    left: 116.5487px;
+    top: 255.6687px;
+    width: 55.7909px;
+    height: 6.275px;
+    background: #BDC0A8;
+    -webkit-clip-path: polygon(13% 0, 21% 100%, 100% 100%);
+    clip-path: polygon(13% 0, 21% 100%, 100% 100%);
+}
+
+.schildpad .vijfentwintig {
+    left: 45.3693px;
+    top: 261.2px;
+    width: 125.8152px;
+    height: 30.3926px;
+    background: #67726F;
+    -webkit-clip-path: polygon(44% 3%, 0 100%, 100% 0);
+    clip-path: polygon(44% 1.5%, 0 100%, 100% 0);
+}
+
+.schildpad .zesentwintig {
+    left: 40px;
+    top: 261.5px;
+    width: 130px;
+    height: 32px;
+    background: #BCC7C0;
+    -webkit-clip-path: polygon(73% 96%, 5% 93%, 100% 0);
+    clip-path: polygon(73% 96%, 5% 93%, 100% 0);
+    z-index: 1
+}
+
+.schildpad .zevenentwintig {
+    left: 168.5px;
+    top: 261.5px;
+    width: 85px;
+    height: 40px;
+    background: #BDBDAD;
+    -webkit-clip-path: polygon(69% 100%, 8% 74%, 2% 0);
+    clip-path: polygon(68% 100%, 8% 74%, 1.5% 0%);
+}
+
+
+
+.schildpad .achtentwintig {
+    left: 142.5px;
+    top: 261.4px;
+    width: 33.1887px;
+    height: 32px;
+    background: #BEC1A8;
+    -webkit-clip-path: polygon(100% 93%, 0 74%, 83% 0);
+    clip-path: polygon(100% 93.5%, 0 74%, 83% 0);
+}
+
+.schildpad .negenentwintig {
+    left: 113.4px;
+    top: 282.6px;
+    width: 62.5624px;
+    height: 64.823px;
+    background: #4B6066;
+    -webkit-clip-path: polygon(100% 13%, 0 100%, 41% 0);
+    clip-path: polygon(100% 13%, 0 100%, 41% 0);
+    z-index: 0;
+}
+
+.schildpad .dertig {
+    left: 113.5px;
+    top: 281.5px;
+    width: 24px;
+    height: 66px;
+    background: #2F4755;
+    -webkit-clip-path: polygon(100% 8%, 0 100%, 0 41%);
+    clip-path: polygon(100% 8%, 0 100%, 0 41%);
+    z-index: 0;
+}
+
+/*Hier begint dier 3 (de vis)*/
+
+body.vis #dier {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 500px;
+}
+
+.vis .een {
+    left: 67.2848px;
+    top: 215.4939px;
+    width: 10.2791px;
+    height: 81.1772px;
+    background: #65A696;
+    -webkit-clip-path: polygon(0 51%, 100% 100%, 75% 0);
+    clip-path: polygon(0 51%, 100% 100%, 75% 0);
+}
+
+.vis .twee {
+    left: 36.4px;
+    top: 281.1876px;
+    width: 97.337px;
+    height: 29.7371px;
+    background: #BC7564;
+    -webkit-clip-path: polygon(0 90%, 45% 100%, 100% 0);
+    clip-path: polygon(0 90%, 45% 100%, 100% 0);
+}
+
+.vis .drie {
+    left: 37.9773px;
+    top: 200.9px;
+    width: 98.9654px;
+    height: 19.6125px;
+    background: #E49E75;
+    -webkit-clip-path: polygon(0 50%, 100% 100%, 29% 0);
+    clip-path: polygon(0 50%, 100% 100%, 29% 0);
+}
+
+.vis .vier {
+    left: 78.5496px;
+    top: 250.5551px;
+    width: 79.1367px;
+    height: 46.4014px;
+    background: #C87E6D;
+    -webkit-clip-path: polygon(0 100%, 94% 59%, 52% 1%);
+    clip-path: polygon(0 100%, 94% 59%, 52% 1%);
+    clip-path: polygon(0 100%, 94% 59%, 52% 1%);
+}
+
+.vis .vijf {
+    left: 74px;
+    top: 214px;
+    width: 47px;
+    height: 84px;
+    background: #CC8C67;
+    -webkit-clip-path: polygon(7% 100%, 100% 44%, 0 0);
+    clip-path: polygon(7% 100%, 100% 44%, 0 0);
+}
+
+.vis .zes {
+    left: 73.4918px;
+    top: 214.0117px;
+    width: 63.9524px;
+    height: 36.1334px;
+    background: #D4946D;
+    -webkit-clip-path: polygon(71% 100%, 100% 17%, 0 0);
+    clip-path: polygon(71% 100%, 100% 17%, 0 0);
+}
+
+.vis .zeven {
+    left: 118.5px;
+    top: 219.9945px;
+    width: 33.5465px;
+    height: 57.7775px;
+    background: #CC8C67;
+    -webkit-clip-path: polygon(100% 100%, 56% 0, 0 52%);
+    clip-path: polygon(100% 100%, 56% 0, 0 52%);
+}
+
+.vis .acht {
+    left: 169.9729px;
+    top: 270.5px;
+    width: 98.189px;
+    height: 33.6828px;
+    background: #915374;
+    -webkit-clip-path: polygon(100% 100%, 2% 0, 0 61%);
+    clip-path: polygon(100% 100%, 2% 0, 0 61%);
+}
+
+.vis .negen {
+    left: 173.7px;
+    top: 250.3207px;
+    width: 93.9933px;
+    height: 69.7942px;
+    background: #73BC96;
+    -webkit-clip-path: polygon(100% 77%, 90% 0, 0 31%);
+    clip-path: polygon(100% 77%, 90% 0, 0 31%);
+}
+
+.vis .tien {
+    left: 137.3234px;
+    top: 220.0552px;
+    width: 121.577px;
+    height: 58.0372px;
+    background: #81D2A6;
+    -webkit-clip-path: polygon(12% 100%, 100% 52%, 0 0);
+    clip-path: polygon(12% 100%, 100% 52%, 0 0);
+}
+
+.vis .elf {
+    left: 183.0843px;
+    top: 163.7324px;
+    width: 106.9743px;
+    height: 68.5905px;
+    background: #906E8C;
+    -webkit-clip-path: polygon(5% 100%, 100% 0, 0 37%);
+    clip-path: polygon(5% 100%, 100% 0, 0 37%);
+}
+
+.vis .twaalf {
+    left: 173.4394px;
+    top: 181.3px;
+    width: 89.5877px;
+    height: 69.5527px;
+    background: #9EE8BA;
+    -webkit-clip-path: polygon(16% 74%, 96% 100%, 100% 0);
+    clip-path: polygon(16% 74%, 96% 100%, 100% 0);
+}
+
+.vis .dertien {
+    left: 259.9px;
+    top: 162.5976px;
+    width: 90.7952px;
+    height: 20.777px;
+    background: #EFCA86;
+    -webkit-clip-path: polygon(0 100%, 100% 17%, 26% 0);
+    clip-path: polygon(0 100%, 100% 17%, 35% 0);
+}
+
+.vis .veertien {
+    left: 250.5px;
+    top: 166.1497px;
+    width: 100.263px;
+    height: 40.9904px;
+    background: #EBBD78;
+    -webkit-clip-path: polygon(52% 100%, 100% 0, 10% 41%);
+    clip-path: polygon(52% 100%, 100% 0, 10% 41%);
+}
+
+.vis .vijftien {
+    left: 258.3px;
+    top: 183.2px;
+    width: 46.4303px;
+    height: 68.2238px;
+    background: #8CDDB1;
+    -webkit-clip-path: polygon(0 100%, 90% 33%, 6% 0);
+    clip-path: polygon(0 100%, 90% 33%, 6% 0);
+}
+
+.vis .zestien {
+    left: 257.7052px;
+    top: 218.14px;
+    width: 44.6474px;
+    height: 55.7329px;
+    background: #79C59D;
+    -webkit-clip-path: polygon(0 61%, 100% 100%, 79% 0);
+    clip-path: polygon(0 61%, 100% 100%, 70% 0);
+}
+
+.vis .zeventien {
+    left: 255.8px;
+    top: 241.4394px;
+    width: 46.3946px;
+    height: 68.2399px;
+    background: #76C19A;
+    -webkit-clip-path: polygon(5% 14%, 24% 92%, 100% 47%);
+    clip-path: polygon(5% 14%, 24% 92%, 100% 47%);
+}
+
+.vis .achttien {
+    left: 304.3005px;
+    top: 309.6796px;
+    width: 60.7336px;
+    height: 25.3608px;
+    background: #D26748;
+    -webkit-clip-path: polygon(29% 0, 0 100%, 100% 18%);
+    clip-path: polygon(29% 0, 0 100%, 100% 18%);
+}
+
+.vis .negentien {
+    left: 266.7px;
+    top: 269.6px;
+    width: 98.2035px;
+    height: 45.4974px;
+    background: #D77748;
+    -webkit-clip-path: polygon(40% 0, 0 76%, 100% 100%);
+    clip-path: polygon(40% 0, 0 76%, 100% 100%);
+}
+
+.vis .twintig {
+    left: 301px;
+    top: 246.7974px;
+    width: 68.0376px;
+    height: 67.9309px;
+    background: #DB8254;
+    -webkit-clip-path: polygon(100% 0, 0 35%, 93% 100%);
+    clip-path: polygon(100% 0, 0 35%, 93% 100%);
+}
+
+.vis .eenentwintig {
+    left: 281.1066px;
+    top: 238.10px;
+    width: 85.6628px;
+    height: 34.9563px;
+    background: #6A5248;
+    -webkit-clip-path: polygon(100% 32%, 3% 0, 25% 100%);
+    clip-path: polygon(100% 32%, 3% 0, 25% 100%);
+}
+
+.vis .tweeentwintig {
+    left: 283.9122px;
+    top: 214px;
+    width: 83.0031px;
+    height: 35.6103px;
+    background: #372F36;
+    -webkit-clip-path: polygon(100% 100%, 1% 24%, 0 68%);
+    clip-path: polygon(100% 100%, 1% 25.5%, 0 68%);
+}
+
+.vis .drieentwintig {
+    left: 284.6234px;
+    top: 201.8893px;
+    width: 82.3259px;
+    height: 49.2149px;
+    background: #503E3F;
+    -webkit-clip-path: polygon(100% 97%, 19% 4%, 0 44%);
+    clip-path: polygon(100% 97%, 19% 4.9%, 0 44%);
+}
+
+.vis .vierentwintig {
+    left: 299.4px;
+    top: 164.9808px;
+    width: 67.6096px;
+    height: 85.2703px;
+    background: #E8AF74;
+    -webkit-clip-path: polygon(100% 100%, 75.5% 1.5%, 0 47%);
+    clip-path: polygon(100% 100%, 75.5% 1.5%, 0 47%);
+}
+
+.vis .vijfentwintig {
+    left: 401.8838px;
+    top: 223.9154px;
+    width: 23.5202px;
+    height: 10.6202px;
+    background: #6AA1E1;
+    -webkit-clip-path: polygon(100% 54%, 40% 0, 0 100%);
+    clip-path: polygon(100% 54%, 40% 0, 0 100%);
+    z-index: 2;
+}
+
+.vis .zesentwintig {
+    left: 439.8942px;
+    top: 251.5093px;
+    width: 25.863px;
+    height: 19.5265px;
+    background: #46759A;
+    -webkit-clip-path: polygon(100% 47%, 0 0, 53% 100%);
+    clip-path: polygon(100% 47%, 0 0, 53% 100%);
+}
+
+.vis .zevenentwintig {
+    left: 351.5208px;
+    top: 251.1969px;
+    width: 106.8167px;
+    height: 62.5322px;
+    background: #A67056;
+    -webkit-clip-path: polygon(83% 0, 13% 100%, 100% 43%);
+    clip-path: polygon(83% 0, 13% 100%, 96% 31.5%);
+}
+
+.vis .achtentwintig {
+    left: 350.0996px;
+    top: 166.2441px;
+    width: 112.6178px;
+    height: 85.766px;
+    background: #E49D6E;
+    -webkit-clip-path: polygon(0 0, 15% 98%, 100% 78%);
+    clip-path: polygon(0 0, 15% 98%, 100% 78%);
+    z-index: 0;
+}
+
+.vis .negenentwintig {
+    left: 347.2px;
+    top: 232.9px;
+    width: 117.6369px;
+    height: 82.7256px;
+    background: #DD8F57;
+    -webkit-clip-path: polygon(17% 21%, 14% 100%, 98% 0);
+    clip-path: polygon(17% 21%, 14% 100%, 98% 0);
+    z-index: 0;
+}
+
+.vis .dertig {
+    left: 440px;
+    top: 233px;
+    width: 35px;
+    height: 18.5893px;
+    background: #68A2E3;
+    -webkit-clip-path: polygon(100% 94%, 0 100%, 63% 0);
+    clip-path: polygon(100% 94%, 0 100%, 63% 0);
+    z-index: 0;
+}
+
+.dot {
+    animation: 2s enter;
+    background-color: #ffff;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 50px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    /*    transform: translate(-50%, -50%);*/
+    width: 50px;
+}
+
+.pingu {
+    background: white;
+}
+
+.schillie {
+    background: #79D8D3;
+}
+
+.visje {
+    background: #538480;
+}
+
+
+
+@keyframes enter {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translate(-100%, -100%);
+    }
+
+    50% {
+        opacity: .9;
+    }
+}
